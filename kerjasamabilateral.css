@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 30px;
+    background-image: url(Untitled\ design\ \(3\)\ -\ Copy.png);
+    background-repeat:no-repeat;
+     background-size: cover;
+    padding: 30px;
+}
+
+
+
+.main-container {
+    display: flex;
+    gap: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.gallery-section {
+    width: 45%;
+    padding: 20px;
+    border-radius: 15px;
+   
+}
+
+.gallery-section h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+.text-section {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-box {
+    background: #f9b232;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+.text-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(255,255,140,0.4),
+                0 0 35px rgba(255,255,140,0.2);
+}
+
+.text-box h2 {
+    margin-bottom: 8px;
+    color: #0b6635;
+}
+
+.text-box p {
+    color: #333;
+    line-height: 1.4;
+}
+
+
+@media (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .gallery-section, .text-section {
+        width: 100%;
+    }
+}
+
+
+

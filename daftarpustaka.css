@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(KEREN.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   
+  padding-top: 30px;
+}
+
+
+.card {
+  width: 75%;
+  max-width: 2000px;
+  max-height: 90vh;         
+  overflow-y: auto;         
+  
+  background-color: #d28d8d;
+  border-radius: 20px;
+  padding: 25px 35px;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.card ul {
+  padding-left: 20px;
+}
+
+
+.card li {
+  line-height: 1.8;
+  word-break: break-word;     
+  overflow-wrap: anywhere;
+}
+
+.card a {
+  color: #0e225d;
+  text-decoration: none;
+}
+.card a:hover {
+  text-decoration: underline;
+}
